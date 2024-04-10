@@ -2,8 +2,8 @@
 
 const accountId =123456   //Unchangable Value
 let accountEmail ="brawlvella@gmail.com"
-var accountPassword = "124@34"
-accountCity ="patna" //don't use this method but it is possible to declare without keyword
+var accountPassword = "224@34"
+accountCity ="bhabua" //don't use this method but it is possible to declare without keyword
 let accountstate
 
 // accountId= 2 //const change not allowed

@@ -8,7 +8,7 @@
 //Not a correct way to write as we have to maintain readability
 //not a good practice
 
-console.log(3+3)
+console.log(4+3)
 console.log("hello")
 
 let name = "SP"
