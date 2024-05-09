@@ -61,3 +61,5 @@ let str3 =str1 +str2
 let gamecounter = 100
 gamecounter++;
 //console.log(gamecounter);
+
+

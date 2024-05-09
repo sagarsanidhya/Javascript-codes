@@ -11,7 +11,7 @@
 console.log(4+3)
 console.log("hello")
 
-let name = "SP"
+let name = "Oye"
 let age ="21"
 let isLoggedIn = false
 
