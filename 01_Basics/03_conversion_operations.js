@@ -3,7 +3,7 @@
 console.log(typeof score);
 console.log(typeof(score));
 
-//But we have to work on numbers 
+//But we have to work on numbers here score data type is converted into the number
 
 let valueInNumber = Number(score)
 
@@ -48,15 +48,18 @@ let str1 ="Hello"
 let str2 =" Rauy"
 
 let str3 =str1 +str2
-//console.log(str3);
+console.log(str3);
 
 //console.log("1" + 2 ); // O/P =>12
 //console.log( 1 + "2"); // O/P =>12
 //console.log( "1" + 2 + 2); // O/P =>122
 //console.log(1 + 2 + "2"); // O/P =>32
 
-//console.log(+true);
-//console.log(+"");
+//Jo bhi pehle aayega wo ussi datatype ka ho jayega in 3rd example above 1st no. is string hence 
+//wo string value de rha rha hai and in 4th exaple pehle no. hai isliye add hogya
+
+//console.log(+true); //ye code sabse kharab hai output "1" hai
+//console.log(+""); //bekar coding skills hai aapka giyan hai aap
 
 let gamecounter = 100
 gamecounter++;
