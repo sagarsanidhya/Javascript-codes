@@ -35,3 +35,45 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // to check wether the element is present on not
+
+//-----------------------   -----------------------------------------------------------------
+
+//Object destructuring
+
+const course = {
+    coursenames: "Js",
+    price: "999",
+    courseInstructor: "Rauy"
+}
+
+// course.coursenames //normal calling // curly braces = destructuring
+
+const{courseInstructor} = course //can be called by easy way
+console.log(courseInstructor);
+
+console.log(course.price); // either this is the normal way
+
+//react example of destructuring
+const navbar = ({company}) => {
+
+
+}
+
+navbar(company = "rauy")
+
+// ------------------- ----------------------------------------------------------------
+
+//API JSON
+//object format
+// {
+//     "name": "rauy",
+//     "cousrename": "Js"
+//     "price": "free"
+// }
+
+//array format
+// [
+//     {},
+//     {},
+//     {},
+// ]
